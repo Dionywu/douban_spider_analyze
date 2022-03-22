@@ -1,9 +1,9 @@
 # 豆瓣top250电影分析
 #### 介绍：通过爬虫技术获取豆瓣top250电影，同时进行相应的可视化操作，产出分析报告
-#### 技术栈：sql、python，其中第三方库包括：urllib(获取豆瓣相关网站url)、beautifulsoup(从网站抓取数据)、re(正则)、numpy、pandas、matplotlib
+#### 技术栈：sql、python，其中第三方库包括：urllib(获取豆瓣相关网站url)、beautifulsoup(从网站抓取数据)、re(正则)、numpy、pandas、matplotlib、pymysql(操作数据库)等，项目框架如下
 - 通过获取豆瓣top电影的url，观察影片信息的相关html规则，进行爬虫
-- 将爬下来的数据存储进数据库以及excel表中，进行后续分析
-- 通过将结构化的数据放入tableau进行相应的分析，并产出“豆瓣top250电影分析报告”
+- 将爬下来的数据存储进数据库以及excel中，进行后续分析
+- 将整理好的数据放入tableau进行构造相应的图标并进行详细分析，产出“豆瓣top250电影分析报告”
 
 ### 分析报告
 
